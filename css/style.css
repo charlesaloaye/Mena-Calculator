@@ -1,0 +1,25 @@
+/*Spinners by Charles Sedenu */
+.dorc-spinner:before
+{
+	content: "";
+	box-sizing: border-box;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	height: 60px;
+	width: 60px;
+	margin-top: -30px;
+	margin-left: -30px;
+	border-radius: 50%;
+	border: 3px solid orange;
+	border-top-color: purple;
+	border-bottom-color: green;
+	animation: spinner 10s ease infinite;
+
+}
+
+@keyframes spinner{
+	from{
+		transform: rotateY(360deg);
+	}
+}
